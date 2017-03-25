@@ -1,0 +1,242 @@
+       .img-circle {
+        border-radius: 50%;
+        border-color: aqua;
+        /*padding-top: 10px;*/
+      }
+
+
+      #tedimg{
+       border-radius: 360px;
+       width:190px;height:190px;border:0;
+
+     }
+     .here{
+      color: blue;
+    }
+    
+    .firstsite{
+      color: blue;
+      /*text-indent: 40%;*/
+      text-transform: 50%;
+
+    }
+   /* .secondside{
+      color: blue;
+        text-transform: 50%;
+        }*/
+        #sen{
+          color: blue;
+        }
+        #secondimg{
+          
+          border-radius: 360px;
+          width:190px;height:190px;border:0;
+        }
+
+        body{
+          background-color: #AADDBB;
+          /*AADDBB*/
+          /*777777*/
+          /*888877*/
+          /*258654*/
+
+        }
+        #myskills{
+          background-color: pink;
+          color: white;
+        }
+
+        #myname{
+          padding-right: 80%;
+        }
+        #mytitle{
+          padding-right: 80%;
+          font-style: italic;
+          font-synthesis: initial;
+        }
+        #naTakallam{
+          /
+        }
+/*   ul {
+    list-style-type: none;
+    margin: 0;*/
+    #made-with-love{
+      /*width: 30px;*/
+      /*height: 30px;*/
+      /*margin: 0 8px;*/
+      /*width: 200px;*/
+
+      /*margin: 0 auto;*/
+      /*padding-top: 190px;*/
+      padding: 5px;
+
+      /*text-align: center;*/
+      /*border-radius: 25%;*/
+    }
+    #logo{
+     /*padding-top: 140px;*/
+     padding: 55px;
+     /*background-color: skyblue;*/
+
+   }
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .myproject{
+    background-color: pink;
+    color: white;
+  }
+  .social-icon{
+   border-radius: 20%;
+ }
+/*    .header {
+  position: relative;
+  height: 85px;
+  box-shadow: 0 5px 5px #f1f1f1;
+  margin-bottom: 100px;
+  }*/
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+  }
+
+  html {
+    font-size: 15px;
+    color: #282828;
+  }
+
+  body {
+    font-family: "GothamPro", Helvetica, Arial, sans-serif;
+  }
+
+  html,
+  body {
+    width: 100vw;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+  .social-icon-container {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 110px;
+    text-align: center;
+  }
+
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+  }
+  .vitals-text-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .profile-name,
+  .profile-location {
+    font-weight: normal;
+  }
+
+  .profile-name {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .profile-location {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .profile-quote {
+    font-family: "GothamPro-Light", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #85929d;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .details-block {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .title-holder {
+    font-family: "GothamPro-Bold", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #85929d;
+    border-bottom: 1px dotted #85929d;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .description-holder {
+    font-family: "GothamPro-Light", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4em;
+  }
+
+  .description-holder h4 {
+    font-family: "GothamPro-Medium", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 8px;
+    margin: 8px 0;
+  }
+
+/*.description-holder h5 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.description-holder h5 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.education-content div:nth-child(3),
+.experience-content div:nth-child(3) {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px dotted #85929d;
+  }*/
+
