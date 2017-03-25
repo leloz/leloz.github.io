@@ -28,7 +28,7 @@
           color: blue;
         }
         #secondimg{
-          
+
           border-radius: 360px;
           width:190px;height:190px;border:0;
         }
@@ -57,61 +57,48 @@
         #naTakallam{
           /
         }
-/*   ul {
-    list-style-type: none;
-    margin: 0;*/
-    #made-with-love{
-      /*width: 30px;*/
-      /*height: 30px;*/
-      /*margin: 0 8px;*/
-      /*width: 200px;*/
 
-      /*margin: 0 auto;*/
-      /*padding-top: 190px;*/
-      padding: 5px;
+        #made-with-love{
 
-      /*text-align: center;*/
-      /*border-radius: 25%;*/
-    }
-    #logo{
-     /*padding-top: 140px;*/
-     padding: 55px;
-     /*background-color: skyblue;*/
+          padding: 5px;
+        }
 
-   }
+        #logo{
+         padding: 55px;
+       }
 
-   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: pink;
-  }
+       ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: pink;
+      }
 
-  li {
-    float: left;
-  }
+      li {
+        float: left;
+      }
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
 
 
-  li a:hover {
-    background-color: #111;
-  }
+      li a:hover {
+        background-color: #111;
+      }
 
-  .myproject{
-    background-color: pink;
-    color: white;
-  }
-  .social-icon{
-   border-radius: 20%;
- }
+      .myproject{
+        background-color: pink;
+        color: white;
+      }
+      .social-icon{
+       border-radius: 20%;
+     }
 /*    .header {
   position: relative;
   height: 85px;
