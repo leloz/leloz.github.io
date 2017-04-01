@@ -1,14 +1,15 @@
 
-var url ="https://www.youtube.com/user/alxs1aa/playlists"
-// var link = "https://www.youtube.com/user/alxs1aa/playlists";
+ url ="https://www.youtube.com/user/alxs1aa/playlists"
+ // ="http://www.ted.com/talks"
 $(document).ready(function(){
 
 	clickButton();
+	clickLink();
 
-	// $('a.new-window').click(function(){
-	// 	window.open(this.href);
-	// 	return false;
-	// });
+	$('a.new-window').click(function(){
+		window.open(url.href);
+		return false;
+	});
 
 });
 
@@ -19,6 +20,13 @@ function clickButton(){
 	});
 }
 
+ 
+
+function clickLink(){
+	$("#clicklink").click(function(e){
+		window.open("http://www.ted.com/talks", '_blank')
+	});
+}
 
 
 
