@@ -1,39 +1,64 @@
   <!DOCTYPE html>
   <html lang="en">
   <head>
+
     <meta charset="UTF-8">
     <!-- <title>Document</title> -->
     <link rel="stylesheet" href="css/style.css">
-    <nav>
-      <div class="row">
-        <div class="container">
-          <ul class="nav nav-pills" role="tablist">
-            <li role="presentation"><a href="home.html">Home<span class="badge"></span></a></li>
-            <li role="presentation" class="about"><a href="about.html">About Leloz<span class="badge"></span></a></li>
-            <li role="presentation" class="projects"><a href="projects.html">Projects</a></li>
-            <li role="presentation"><a href="skills.html">Skills <span class="badge"></span></a></li>
-            <li role="presentation"><a href="sites.html">Sites<span class="badge"></span></a></li>
-          </ul> 
-        </div>
-      </div><br>
+    
 
 
-    </head>
-    <body>
-
-<!-- add the sites -->
-      <div class="firstsite">
-        <h4>The most useful sites what I watched to learn English for me!!</h4><br>
-        <img src="imgs/ted.jpg" id="tedimg"><br><br>
-        <a class="here" href="http://www.ted.com/talks">Here the link for TEDX</a><br><br>
-        <!-- <a href="http://www.ted.com/talks"><h5 id="thelink">Here the link for TEDX!!!!!</h5></a> -->
+  </head>
+  <body>
+   <nav>
+    <div class="row">
+      <div class="container">
+        <ul class="nav nav-pills" role="tablist">
+          <li role="presentation"><a href="index.html">Home<span class="badge"></span></a></li>
+          <li role="presentation" class="about"><a href="about.html">About Leloz<span class="badge"></span></a></li>
+          <li role="presentation" class="projects"><a href="projects.html">Projects</a></li>
+          <li role="presentation"><a href="skills.html">Skills <span class="badge"></span></a></li>
+          <li role="presentation"><a href="sites.html">Sites<span class="badge"></span></a></li>
+        </ul> 
       </div>
+    </div><br>
+    <!-- add the sites -->
+    <!-- <div class="firstsite"> -->
+    <div>
+      <h4 class="sentence">The most useful sites what I watched to learn English for me!!</h4><br>
+      <img src="imgs/ted.jpg" id="tedimg"><br><br>
+      <a id="clicklink">Here the link for TEDX</a><br><br>
+      <div id="result"></div>
+      <div id="date"></div>
+      <!-- <a href="http://www.ted.com/talks"><h5 id="thelink">Here the link for TEDX!!!!!</h5></a> -->
+    </div>
 
-      <div class="secondsite">
-        <h4 id="sen">Here the site for learning programming, and hte site it give you a simple example which make you to love prohramming!!! </h4><br>
+    <div class="secondsite">
+      <h4 id="sen">Here the site for learning programming, and hte site it give you a simple example which make you to love prohramming!!! </h4><br>
 
-        <img src="imgs/pd.jpg" id="secondimg"><br><br>
-        <a href="https://www.youtube.com/user/alxs1aa/playlists">Here the link for The New Paghdad</a><br><br>
-      </div>
+      <img src="imgs/photo.jpg" id="secondimg"><br><br>
+      <!-- <a href="https://www.youtube.com/user/alxs1aa/playlists">Here the link for The New Paghdad</a><br><br> -->
+
+      <!-- <h1 class="myproject">My Projects</h1> -->
+      <!-- <h1>Here the link for The New Paghdad</h1> -->
+      <h4 id="click">click here to find my favorite site for coding!!!</h4>
+      <div id="result"></div>
+      <div id="date"></div>
+    </div>
+
+
+   <!--  <h1 class="myproject">My Projects</h1>
+    <p>Inside the Learn.co I have a five favorite repository!!!</p>
+    <p>Here my favorites:<br><br>
+      <button id="button">click here to find my favorite repos!!!</button>
+      <div id="result"></div>
+      <div id="date"></div> -->
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/sites.js"></script>
+
     </body>
     </html>
+
