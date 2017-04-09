@@ -1,4 +1,3 @@
-
 var url ="skills.json"
 $(document).ready(function(){
 	getSkills();
