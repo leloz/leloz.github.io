@@ -1,33 +1,19 @@
+var url ="https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyAFyLmjiDWP2CGc7Po4CERQeHW5wyvpPUQ&channelId=UCsT0YIqwnpJCM-mx7-gSA4Q"
 
- url ="https://www.youtube.com/user/alxs1aa/playlists"
- // ="http://www.ted.com/talks"
 $(document).ready(function(){
 
-	clickButton();
-	clickLink();
-
-	$('a.new-window').click(function(){
-		window.open(url.href);
-		return false;
-	});
+	show();
 
 });
 
 
-function clickButton(){
-	$("#click").click(function(e){
-		window.open(url, '_blank')
-	});
-}
+function show(){
+	$.get(url, function(response) {
+		$('#result').html('');
+		$.each(response.items, function(i,video){
+			console.log(video);
+			$('#result').append('<div class="row"><div class="col-md-3"><a href="https://www.youtube.com/watch?v='+video.id.videoId+'" target="_blank"><img src="'+video.snippet.thumbnails.default.url+'"></a></div><div class="col-md-6">'+video.snippet.title+'</div></div>')
 
- 
-
-function clickLink(){
-	$("#clicklink").click(function(e){
-		window.open("http://www.ted.com/talks", '_blank')
-	});
-}
-
-
-
-
+		})
+	})
+};
