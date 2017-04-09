@@ -1,30 +1,28 @@
 
 var url ="https://api.github.com/users/leloz/repos?sort=created&per_page=5"
+
 $(document).ready(function(){
 
-  clickButton();
-  show(); 
+  show();
+
 });
 
-function clickButton(){
-  $("#button").click(function(e){
 
-    $.get(url, function(data){
-     console.log(data);
-   })
-  })
-}
 
 function show(){
 
   $.get(url, function(response) {
-    $.each(response,function(i,repo){
+    console.log(response)
+      $.each(JSON.parse(response), function(i,repo){
+    // $.each(response,function(i,repo){
       var d=new Date(repo.created_at)
       $('#result').append('Created at: '+formatDate(d)+'<a href="'+repo.html_url+'" target="_blank">' + repo.name + '</a><br>'); 
-  $("date").append(response +'&nbsp;')
+      $("date").append(response +'&nbsp;')
+
     })
   });
 };
+
 
 function formatDate(date) {
   var hours = date.getHours();
@@ -35,20 +33,8 @@ function formatDate(date) {
   minutes = minutes < 10 ? '0'+minutes : minutes;
   var strTime = hours + ':' + minutes + ' ' + ampm;
   return date.getMonth()+1 + "/" + date.getDate() + "/" + date.getFullYear() + "  " + strTime;
+  var date = document.createTextNode("\u00A0");
 }
-
-
-
-
-// <script type="text/javascript>
-  
-// </script>
-
-
-
-
-
-
 
 
 

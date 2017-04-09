@@ -1,31 +1,86 @@
-       .img-circle {
-        border-radius: 50%;
-        border-color: aqua;
-        /*padding-top: 10px;*/
-      }
+
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+body {
+  /*position: relative;*/
+}
+.leloz{
+
+  font: 'Marck Script', cursive;
+
+  color: gray;
+  text-align: center;
+  border: 1px solid powderblue;
+  border: 1px solid powderblue;
+  margin: 50px
+}
 
 
-      #tedimg{
-       border-radius: 360px;
-       width:190px;height:190px;border:0;
+.seconddiv{
+  /*text-align: right;*/
+ /*padding-bottom: 0 20px;/*/
+}
 
-     }
-     .here{
-      color: blue;
-    }
-    
-    .firstsite{
-      color: blue;
-      /*text-indent: 40%;*/
-      text-transform: 50%;
 
-    }
+
+.fivecurrent{
+  font-style: italic;
+  color: gray;
+}
+.fivefavorite{
+  font-style: italic;
+  color: gray;
+}
+.myskills{
+  font-style: italic;
+  color: gray;
+  text-align: center;
+  border: 1px solid powderblue;
+  border: 1px solid powderblue;
+  margin: 50px;
+
+}
+
+
+.img-circle {
+  border-radius: 50%;
+  border-color: aqua;
+  /*padding-top: 10px;*/
+}
+#click{
+  color: blue;
+}
+#clicklink{
+  color: blue;
+}
+.sentence{
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+}
+
+#tedimg{
+ border-radius: 360px;
+ width:190px;height:190px;border:0;
+
+}
+.here{
+  color: blue;
+}
+
+.firstsite{
+  color: blue;
+  /*text-indent: 40%;*/
+  text-transform: 50%;
+
+}
    /* .secondside{
       color: blue;
         text-transform: 50%;
         }*/
         #sen{
-          color: blue;
+          color: white;
+          font-size: 30px;
+          font-style: italic;
         }
         #secondimg{
 
@@ -54,19 +109,19 @@
           font-style: italic;
           font-synthesis: initial;
         }
-        #naTakallam{
+      /*  #naTakallam{
           /
-        }
+        }*/
 
-        #made-with-love{
+      /*  #made-with-love{
 
           padding: 5px;
-        }
-
+        }*/
+/*
         #logo{
          padding: 55px;
        }
-
+*/
        ul {
         list-style-type: none;
         margin: 0;
