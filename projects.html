@@ -5,13 +5,13 @@
 	<!-- <title>Document</title> -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body background="imgs/w.jpg">
 	<nav>
 		<div class="row">
 			<div class="container">
 				<ul class="nav nav-pills" role="tablist">
 					<li role="presentation"><a href="index.html">Home<span class="badge"></span></a></li>
-					<li role="presentation" class="about"><a href="about.html">About Leloz<span class="badge"></span></a></li>
+					<li role="presentation" class="about"><a href="about.html">About<span class="badge"></span></a></li>
 					<li role="presentation" class="projects"><a href="projects.html">Projects</a></li>
 					<li role="presentation"><a href="skills.html">Skills <span class="badge"></span></a></li>
 					<li role="presentation"><a href="sites.html">Sites<span class="badge"></span></a></li>
@@ -19,7 +19,25 @@
 			</div>
 		</div>
 	</nav><br>
+	<!-- ************************ -->
 
+
+	<div>
+		<!-- <ul class="nav nav-tabs nav-justified" id="myTabs"> -->
+		<!-- <li role="presentation" class="active"><a href="js/projects.js" aria-controls="current" role="tab" data-toggle="tab">Current</a></li>&nbsp;&nbsp; -->
+		<button class="button" id="btnCurrent" type="button">Current</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<button class="favorite" id="btnFavourite" type="button">Favorite</button> 
+		<!-- <li role="presentation"><a href="#favourite" aria-controls="favourite" role="tab" data-toggle="tab">Favourite</a></li> -->
+		<!-- </ul><br> -->
+	</div>
+	<div class="tab-content">
+		<div role="tabpanel" class="tab-pane active" id="current">
+		</div>
+
+		<div role="tabpanel" class="tab-pane" id="favourite">
+			
+		</div>
+	</div>
 	<!-- 
 	<div class="tab-content">
 		<h1 class="fivecurrent">My five current repos inside my Github</h1>
@@ -31,7 +49,7 @@
 			<h1 class="fivefavorite">My five favorite repositories inside Learn.co</h1>
 		</div>
 	</div>
- -->
+-->
 
 <!-- ************* -->
 
@@ -39,23 +57,24 @@
   <div class="col-md-6" id="result">
 
   </div>
-<div class="col-md-6" id="five" hidden=""> -->
-<!-- ********************* -->
-	<!-- <h1 class="myproject">My Projects</h1><br> -->
+  <div class="col-md-6" id="five" hidden=""> -->
+  	<!-- ********************* -->
+  	<!-- <h1 class="myproject">My Projects</h1><br> -->
 
-	<h1 class="fivecurrent">My five current repos inside my Github</h1><br>
-	<div id="result"></div>
-	<div id="date"></div><br><br>
-	
-	<!-- ******************************************** -->
- <div class="seconddiv">
-	 <h1 class="fivefavorite">My five favorite repositories inside Learn.co</h1><br>
-	<div id="five"></div>
-	<div id="favorite"></div>  
-	</div>
+  	<!-- <h1 class="fivecurrent">My five current repos inside my Github</h1><br> -->
+  	<div id="result"></div>
+  	<div id="date"></div><br><br>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="js/code.js"></script>
-	<script src="js/projects.js"></script>
-</body>
-</html> 
+  	<!-- ******************************************** -->
+  	<div class="seconddiv">
+  		<!-- <h1 class="fivefavorite">My five favorite repositories inside Learn.co</h1><br> -->
+  		<div id="five"></div>
+  		<div id="favorite"></div>  
+  	</div>
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<!-- <script src="js/code.js"></script> -->
+  	<script src="js/projects.js"></script>
+  </body>
+  </html> 
