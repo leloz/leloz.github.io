@@ -12,7 +12,7 @@ function show(){
 		$('#result').html('');
 		$.each(response.items, function(i,video){
 			console.log(video);
-			$('#result').append('<div class="row"><div class="col-md-3"><a href="https://www.youtube.com/watch?v='+video.id.videoId+'" target="_blank"><img src="'+video.snippet.thumbnails.default.url+'"></a></div><div class="col-md-6">'+video.snippet.title+'</div></div>')
+			$('#result').append('<div class="row video"><div class="col-md-3"><a href="https://www.youtube.com/watch?v='+video.id.videoId+'" target="_blank"><img src="'+video.snippet.thumbnails.default.url+'"></a></div><div class="col-md-6">'+video.snippet.title+'</div></div>')
 
 		})
 	})

@@ -1,7 +1,7 @@
 var url ="skills.json"
 $(document).ready(function(){
 	getSkills();
-	showMySkills();
+	// showMySkills();
 });
 
 
@@ -12,6 +12,7 @@ function getSkills(){
 		showMySkills(response)
 	});
 }
+
 
 function showMySkills(json){
 	json.skills.forEach(function(skill){
