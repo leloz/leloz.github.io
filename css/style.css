@@ -21,7 +21,7 @@
     /*width: 290px;*/
   }
 
-    .button{
+  .button{
  /*   font-size: 35px;
     font-family: cursive;
     color: white;
@@ -31,13 +31,15 @@
     font-size: 18px;
     font-family: sans-serif;
     color: #222;
-
+    text-align: left;
+    margin-left: 162px;
+    margin-top: 43px;
 
   }
 
 
 
-    .favorite{
+  .favorite{
 /*    font-size: 35px;
     font-family: cursive;
     color: white;
@@ -76,7 +78,7 @@
 
     }
     .badge{
-      background-color: white;
+      background-color: gray;
     }
 
     .container{
@@ -171,45 +173,45 @@
           border-right: 3px solid #ccc;
           border-radius: 4px;
         }
-        a:hover{
+       /* a:hover{
           color: #06BC9B;
 
-        }
+          }*/
 
-        li {
-          float: left;
-        }
+          li {
+            float: left;
+          }
 
-        li a {
-          display: block;
-          /*color: blue;*/
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
+          li a {
+            display: block;
+            /*color: blue;*/
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
 
 
-        li a:hover {
-          /*background-color: #111;*/
+          /*li a:hover {*/
+            /*background-color: #111;*/
+            /**/
+          }
 
-        }
+          .myproject{
+            background-color: aqua;
+            color: white;
+          }
+          .social-icon{
+           border-radius: 20%;
+           text-align: left; 
 
-        .myproject{
-          background-color: aqua;
-          color: white;
-        }
-        .social-icon{
-         border-radius: 20%;
-         text-align: left; 
+         }
 
-       }
+         /*body {*/
+          /*font-family: "GothamPro", Helvetica, Arial, sans-serif;*/
+          /*}*/
 
-       /*body {*/
-        /*font-family: "GothamPro", Helvetica, Arial, sans-serif;*/
-        /*}*/
-
-        /*html,*/
-        /*body {*/
+          /*html,*/
+          /*body {*/
  /*   width: 100vw;
  min-height: 100vh;*/
  /*}*/
@@ -338,4 +340,12 @@ nav ul{
 .profile-pic{
   margin:  15px;
   width:300px;
+}
+.video{
+  margin-bottom: 10px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover,.nav>li>a:hover{
+  background-color: transparent;
+  color:#06BC9B;
+  /*color: gray;*/
 }
