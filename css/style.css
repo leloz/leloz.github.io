@@ -3,8 +3,6 @@
     padding-right: 190px;
     color: #06BC9B;
     text-align: right;
-    /*margin: 90px*/
-    /*margin: 0px;*/
     padding-bottom: 80px;
     top: 3px;
   }
@@ -14,19 +12,11 @@
   }
 
   .myimg{
-    /*padding-top: 30px;*/
-    /*height: 680px;*/
     padding-bottom: 30px;
     top: 50px;
-    /*width: 290px;*/
   }
 
   .button{
- /*   font-size: 35px;
-    font-family: cursive;
-    color: white;
-    /*background-color: gray;
-    border-radius: 50px;*/
     padding: 5px;
     font-size: 18px;
     font-family: sans-serif;
@@ -38,13 +28,7 @@
   }
 
 
-
   .favorite{
-/*    font-size: 35px;
-    font-family: cursive;
-    color: white;
-    /*background-color: gray;
-    border-radius: 60px;*/
     padding: 5px;
     font-size: 18px;
     font-family: sans-serif;
@@ -52,197 +36,150 @@
 
   }
 
-  /*#five{
-    color: blue;
-    }*/
 
-
-    .nav-tabs.nav-justified>li>a {
-      /*color:rgb(102, 0, 102);*/
-      font-size: 18px;
-      font-style: italic;
-    }
-
-    .nav-tabs.nav-justified>li.active>a{
-      /*color:gray;*/
-
-      /*background-color:white;*/
-
-      /*border-color:pink;*/
-      font-style: italic;
-    }
-
-    .seconddiv{
-      /*text-align: right;*/
-      /*padding-bottom: 0 20px;/*/
-
-    }
-    .badge{
-      background-color: gray;
-    }
-
-    .container{
-      font-size: 25px;
-      /*background-color: aqua;*/
-    }
-
-    .fivecurrent{
-      font-style: italic;
-      /*color: gray;*/
-    }
-    .fivefavorite{
-      font-style: italic;
-      /*color: gray;*/
-    }
-    .myskills{
-      font-style: italic;
-      color: black;
-      text-align: center;
-      border: 1px solid powderblue;
-      border: 1px solid powderblue;
-      margin: 50px;
-
-    }
-
-
-    .img-circle {
-      border-radius: 50%;
-      border-color: aqua;
-      /*padding-top: 10px;*/
-    }
- /* #click{
-    color: blue;
-    }*/
- /* #clicklink{
-    color: blue;
-    }*/
-    .sentence{
-      color: black;
-      font-size: 40px;
-      font-style: italic;
-    }
-
-    #tedimg{
-     border-radius: 360px;
-     width:190px;height:190px;border:0;
-
-   }
-   .here{
-    color: blue;
+  .nav-tabs.nav-justified>li>a {
+    font-size: 18px;
+    font-style: italic;
   }
 
-  .firstsite{
-    color: blue;
-    /*text-indent: 40%;*/
-    text-transform: 50%;
+  .nav-tabs.nav-justified>li.active>a{
+    font-style: italic;
+  }
+
+  
+  .badge{
+    background-color: gray;
+  }
+
+  .container{
+    font-size: 25px;
+  }
+
+  .fivecurrent{
+    font-style: italic;
+  }
+
+  .fivefavorite{
+    font-style: italic;
+  }
+
+  .myskills{
+    font-style: italic;
+    color: black;
+    text-align: center;
+    border: 1px solid powderblue;
+    border: 1px solid powderblue;
+    margin: 50px;
 
   }
-   /* .secondside{
-      color: blue;
-        text-transform: 50%;
-        }*/
-        #sen{
-          color: white;
-          font-size: 30px;
-          font-style: italic;
-        }
-        #secondimg{
-
-          border-radius: 360px;
-          width:190px;height:190px;border:0;
-        }
-
-        #myname{
-          padding-right: 80%;
-        }
-        #mytitle{
-          padding-right: 80%;
-          font-style: italic;
-          font-synthesis: initial;
-        }
-
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          /*background-color: #06BC9B;*/
-
-          border-bottom: 3px solid #ccc;
-          border-left: 3px solid #ccc;
-          border-right: 3px solid #ccc;
-          border-radius: 4px;
-        }
-       /* a:hover{
-          color: #06BC9B;
-
-          }*/
-
-          li {
-            float: left;
-          }
-
-          li a {
-            display: block;
-            /*color: blue;*/
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-          }
 
 
-          /*li a:hover {*/
-            /*background-color: #111;*/
-            /**/
-          }
+  .img-circle {
+    border-radius: 50%;
+    border-color: aqua;
+  }
 
-          .myproject{
-            background-color: aqua;
-            color: white;
-          }
-          .social-icon{
-           border-radius: 20%;
-           text-align: left; 
+  .sentence{
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+  }
 
-         }
+  #tedimg{
+   border-radius: 360px;
+   width:190px;height:190px;border:0;
 
-         /*body {*/
-          /*font-family: "GothamPro", Helvetica, Arial, sans-serif;*/
-          /*}*/
+ }
+ .here{
+  color: blue;
+}
 
-          /*html,*/
-          /*body {*/
- /*   width: 100vw;
- min-height: 100vh;*/
- /*}*/
+.firstsite{
+  color: blue;
+  text-transform: 50%;
 
- h1, h2, h3, h4, h5, h6 {
-  /*margin: 0;*/
+}
+
+#sen{
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+}
+
+#secondimg{
+  border-radius: 360px;
+  width:190px;height:190px;border:0;
+}
+
+#myname{
+  padding-right: 80%;
+}
+
+#mytitle{
+  padding-right: 80%;
+  font-style: italic;
+  font-synthesis: initial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #06BC9B;*/
+
+  border-bottom: 3px solid #ccc;
+  border-left: 3px solid #ccc;
+  border-right: 3px solid #ccc;
+  border-radius: 4px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  /*color: blue;*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.myproject{
+  background-color: aqua;
+  color: white;
+}
+
+.social-icon{
+ border-radius: 20%;
+ text-align: left; 
+
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   color: black;
-  /*font-family: 'Playball', cursive;*/
   font-family: 'Shadows Into Light', cursive;
 }
 
 p{
   font-size: 20px;
-  /*font-family: 'Days One', sans-serif;*/
   color: black;
   font-family: 'Alegreya', serif;
 
 }
+
 a {
   color: #525d68;
-
-  /*color: white;*/
   text-decoration: initial;
   font-size: 16px;
   font-family: sans-serif;
   cursor: pointer;
 
 }
-
-
 
 .details-container{
   margin: 15px;
@@ -265,7 +202,6 @@ a {
   text-align: center;
   margin-top: 15px;
   margin-top: 12px;
-  /*margin: 10px;*/
 }
 
 .profile-name,
@@ -284,17 +220,9 @@ a {
 }
 
 .profile-quote {
-  /*font-family: 'Dancing Script', cursive;*/
-  /*font-family: "GothamPro-Light", Helvetica, Arial, sans-serif;*/
-  /*font-style: italic;*/
   font-size: 40px;
-  /*color: #85929d;*/
   color: black;
-  /*width: 85%;*/
-  /*padding-top: 1%;*/
-  /*margin: 0 auto;*/
   text-align: center;
-  /*margin-top: 10px;*/
 }
 
 .details-block {
@@ -306,11 +234,7 @@ a {
   font-family: "GothamPro-Bold", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: normal;
-  /*color: #85929d;*/
-  /*color:*/
-  /*border-bottom: 1px dotted #85929d;*/
   border-bottom: 1px dotted #06BC9B;
-
   padding-bottom: 20px;
   margin-bottom: 30px;
   margin-top: 0px;
@@ -347,5 +271,4 @@ nav ul{
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover,.nav>li>a:hover{
   background-color: transparent;
   color:#06BC9B;
-  /*color: gray;*/
 }
