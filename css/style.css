@@ -1,4 +1,14 @@
-  .leloz {
+  .description-herbs{
+  font-size: 20px;
+    padding-right: 190px;
+    color: #06BC9B;
+    text-align: right;
+}
+
+
+
+
+.leloz {
     font-size: 50px;
     padding-right: 190px;
     color: #06BC9B;
@@ -273,7 +283,4 @@ nav ul{
   color:#06BC9B;
 }
 
-.description-herbs{
-  font-size: 20px;
-   color: #06BC9B;
-}
+
