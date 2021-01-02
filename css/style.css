@@ -63,25 +63,6 @@
     top: 50px;
   }
 
-  .button{
-    padding: 5px;
-    font-size: 18px;
-    font-family: sans-serif;
-    color: #222;
-    text-align: left;
-    margin-left: 162px;
-    margin-top: 43px;
-
-  }
-
-
-  .favorite{
-    padding: 5px;
-    font-size: 18px;
-    font-family: sans-serif;
-    color: #222;
-
-  }
 
 
   .nav-tabs.nav-justified>li>a {
