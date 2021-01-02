@@ -3,6 +3,9 @@
     padding-right: 190px;
     color: #06BC9B;
     text-align: right
+       float: left;
+  width:31%;
+  margin:1%;
 }
   .description-herbs2{
   font-size: 20px;
